@@ -1,0 +1,7 @@
+2022-05-10 00:09:04.901  INFO 32356 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on LAPTOP-NATQCI4K with PID 32356 (D:\CFP\SpringBoot\EmployeePayrollApp\target\classes started by Hp in D:\CFP\SpringBoot\EmployeePayrollApp)
+2022-05-10 00:09:04.930 DEBUG 32356 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 00:09:04.931  INFO 32356 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-05-10 00:09:10.830  WARN 32356 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 00:09:11.336  WARN 32356 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-10 00:09:11.594  INFO 32356 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 7.55 seconds (JVM running for 8.515)
+2022-05-10 00:09:11.601  INFO 32356 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
