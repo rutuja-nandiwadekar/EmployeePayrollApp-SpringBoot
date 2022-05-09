@@ -12,10 +12,12 @@ public class EmployeePayrollservice implements IEmployeePayrollService{
 
     private List<EmployeePayrollData> employeePayrollList=new ArrayList();
 
+    @Override
     public List<EmployeePayrollData> getEmployeePayrollData(){
         return employeePayrollList;
     }
 
+    @Override
     public EmployeePayrollData getEmployeePayrollDataById(int empId){
         return employeePayrollList.get(empId-1);
     }
@@ -28,6 +30,7 @@ public class EmployeePayrollservice implements IEmployeePayrollService{
         return empData;
     }
 
+    @Override
     public EmployeePayrollData updateEmployeePayrollData(int empId, EmployeeDTO empPayrollDTO){
         EmployeePayrollData empData=this.getEmployeePayrollDataById(empId);
         empData.setName(empPayrollDTO.name);
@@ -35,7 +38,9 @@ public class EmployeePayrollservice implements IEmployeePayrollService{
         employeePayrollList.set(empId-1, empData);
         return empData;
     }
+    @Override
     public void deleteEmployeePayrollData(int empId){
+
         employeePayrollList.remove(empId-1);
     }
 }
