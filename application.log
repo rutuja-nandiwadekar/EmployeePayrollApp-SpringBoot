@@ -992,3 +992,12 @@ Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character (
 2022-05-10 14:45:12.539  INFO 29808 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 5.588 seconds (JVM running for 6.367)
 2022-05-10 14:45:12.544  INFO 29808 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
 2022-05-10 14:45:12.546  INFO 29808 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root 
+2022-05-10 14:48:27.204  INFO 31164 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on LAPTOP-NATQCI4K with PID 31164 (D:\CFP\SpringBoot\EmployeePayrollApp\target\classes started by Hp in D:\CFP\SpringBoot\EmployeePayrollApp)
+2022-05-10 14:48:27.207 DEBUG 31164 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 14:48:27.208  INFO 31164 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-05-10 14:48:31.167  WARN 31164 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:48:31.532  WARN 31164 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-10 14:48:31.710  INFO 31164 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 5.223 seconds (JVM running for 6.265)
+2022-05-10 14:48:31.715  INFO 31164 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-05-10 14:48:31.717  INFO 31164 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root 
+2022-05-10 17:34:09.827  WARN 31164 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h51m38s818ms492µs700ns).
